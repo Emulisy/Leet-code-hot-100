@@ -1,0 +1,21 @@
+{
+  "id": 27,
+  "title": "Remove Element",
+  "language": "python",
+  "source": "27.py",
+  "method": "removeElement",
+  "params": [
+    {
+      "name": "nums",
+      "type": "integer[]"
+    },
+    {
+      "name": "val",
+      "type": "integer"
+    }
+  ],
+  "return_type": "integer",
+  "unordered": [],
+  "check_prefix": 0,
+  "file": "solution.py"
+}

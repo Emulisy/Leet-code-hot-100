@@ -1,0 +1,17 @@
+{
+  "id": 83,
+  "title": "Remove Duplicates from Sorted List",
+  "language": "go",
+  "source": "83.go",
+  "method": "deleteDuplicates",
+  "params": [
+    {
+      "name": "head",
+      "type": "ListNode",
+      "dealloc": false
+    }
+  ],
+  "return_type": "ListNode",
+  "unordered": [],
+  "file": "solution.go"
+}

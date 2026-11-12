@@ -1,0 +1,17 @@
+input:
+"aa"
+"a"
+output:
+false
+
+input:
+"aa"
+"*"
+output:
+true
+
+input:
+"cb"
+"?a"
+output:
+false

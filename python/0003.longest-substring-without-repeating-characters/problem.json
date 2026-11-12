@@ -1,0 +1,16 @@
+{
+  "id": 3,
+  "title": "Longest Substring Without Repeating Characters",
+  "language": "python",
+  "source": "3.py",
+  "method": "lengthOfLongestSubstring",
+  "params": [
+    {
+      "name": "s",
+      "type": "string"
+    }
+  ],
+  "return_type": "integer",
+  "unordered": [],
+  "file": "solution.py"
+}

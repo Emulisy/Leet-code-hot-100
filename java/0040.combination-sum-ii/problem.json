@@ -1,0 +1,23 @@
+{
+  "id": 40,
+  "title": "Combination Sum II",
+  "language": "java",
+  "source": "Solution40.java",
+  "method": "combinationSum2",
+  "params": [
+    {
+      "name": "candidates",
+      "type": "integer[]"
+    },
+    {
+      "name": "target",
+      "type": "integer"
+    }
+  ],
+  "return_type": "list<list<integer>>",
+  "unordered": [
+    0
+  ],
+  "class": "Solution40",
+  "file": "Solution40.java"
+}

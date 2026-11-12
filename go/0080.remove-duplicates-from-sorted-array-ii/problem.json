@@ -1,0 +1,17 @@
+{
+  "id": 80,
+  "title": "Remove Duplicates from Sorted Array II",
+  "language": "go",
+  "source": "80.go",
+  "method": "removeDuplicates",
+  "params": [
+    {
+      "name": "nums",
+      "type": "integer[]"
+    }
+  ],
+  "return_type": "integer",
+  "unordered": [],
+  "check_prefix": 0,
+  "file": "solution.go"
+}

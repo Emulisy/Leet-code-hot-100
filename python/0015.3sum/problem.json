@@ -1,0 +1,18 @@
+{
+  "id": 15,
+  "title": "3Sum",
+  "language": "python",
+  "source": "15.py",
+  "method": "threeSum",
+  "params": [
+    {
+      "name": "nums",
+      "type": "integer[]"
+    }
+  ],
+  "return_type": "list<list<integer>>",
+  "unordered": [
+    0
+  ],
+  "file": "solution.py"
+}

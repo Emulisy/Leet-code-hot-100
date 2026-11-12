@@ -1,0 +1,18 @@
+{
+  "id": 17,
+  "title": "Letter Combinations of a Phone Number",
+  "language": "python",
+  "source": "17.py",
+  "method": "letterCombinations",
+  "params": [
+    {
+      "name": "digits",
+      "type": "string"
+    }
+  ],
+  "return_type": "list<string>",
+  "unordered": [
+    0
+  ],
+  "file": "solution.py"
+}

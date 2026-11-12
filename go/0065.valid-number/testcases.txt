@@ -1,0 +1,14 @@
+input:
+"0"
+output:
+true
+
+input:
+"e"
+output:
+false
+
+input:
+"."
+output:
+false

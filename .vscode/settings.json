@@ -1,0 +1,4 @@
+{
+  "java.project.sourcePaths": ["java", "tools"],
+  "java.project.outputPath": ".cache/java-language-server"
+}

@@ -1,0 +1,17 @@
+{
+  "id": 31,
+  "title": "Next Permutation",
+  "language": "python",
+  "source": "31.py",
+  "method": "nextPermutation",
+  "params": [
+    {
+      "name": "nums",
+      "type": "integer[]"
+    }
+  ],
+  "return_type": "void",
+  "unordered": [],
+  "output_arg": 0,
+  "file": "solution.py"
+}

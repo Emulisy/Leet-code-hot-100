@@ -1,0 +1,17 @@
+{
+  "id": 42,
+  "title": "Trapping Rain Water",
+  "language": "java",
+  "source": "Solution42.java",
+  "method": "trap",
+  "params": [
+    {
+      "name": "height",
+      "type": "integer[]"
+    }
+  ],
+  "return_type": "integer",
+  "unordered": [],
+  "class": "Solution42",
+  "file": "Solution42.java"
+}

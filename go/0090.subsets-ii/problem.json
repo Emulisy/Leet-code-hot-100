@@ -1,0 +1,19 @@
+{
+  "id": 90,
+  "title": "Subsets II",
+  "language": "go",
+  "source": "90.go",
+  "method": "subsetsWithDup",
+  "params": [
+    {
+      "name": "nums",
+      "type": "integer[]"
+    }
+  ],
+  "return_type": "list<list<integer>>",
+  "unordered": [
+    0
+  ],
+  "file": "solution.go",
+  "note": "The existing implementation is unfinished/incorrect; retained for debugging."
+}

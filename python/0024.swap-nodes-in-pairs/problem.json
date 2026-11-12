@@ -1,0 +1,16 @@
+{
+  "id": 24,
+  "title": "Swap Nodes in Pairs",
+  "language": "python",
+  "source": "24.py",
+  "method": "swapPairs",
+  "params": [
+    {
+      "name": "head",
+      "type": "ListNode"
+    }
+  ],
+  "return_type": "ListNode",
+  "unordered": [],
+  "file": "solution.py"
+}

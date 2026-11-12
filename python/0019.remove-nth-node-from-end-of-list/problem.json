@@ -1,0 +1,21 @@
+{
+  "id": 19,
+  "title": "Remove Nth Node From End of List",
+  "language": "python",
+  "source": "19.py",
+  "method": "removeNthFromEnd",
+  "params": [
+    {
+      "name": "head",
+      "type": "ListNode",
+      "dealloc": false
+    },
+    {
+      "name": "n",
+      "type": "integer"
+    }
+  ],
+  "return_type": "ListNode",
+  "unordered": [],
+  "file": "solution.py"
+}

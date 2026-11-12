@@ -1,0 +1,21 @@
+{
+  "id": 61,
+  "title": "Rotate List",
+  "language": "javascript",
+  "source": "61.js",
+  "method": "rotateRight",
+  "params": [
+    {
+      "name": "head",
+      "type": "ListNode",
+      "dealloc": false
+    },
+    {
+      "name": "k",
+      "type": "integer"
+    }
+  ],
+  "return_type": "ListNode",
+  "unordered": [],
+  "file": "solution.js"
+}

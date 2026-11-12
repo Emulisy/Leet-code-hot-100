@@ -1,0 +1,19 @@
+{
+  "id": 51,
+  "title": "N-Queens",
+  "language": "java",
+  "source": "Solution51.java",
+  "method": "solveNQueens",
+  "params": [
+    {
+      "name": "n",
+      "type": "integer"
+    }
+  ],
+  "return_type": "list<list<string>>",
+  "unordered": [
+    0
+  ],
+  "class": "Solution51",
+  "file": "Solution51.java"
+}

@@ -1,0 +1,22 @@
+{
+  "id": 18,
+  "title": "4Sum",
+  "language": "python",
+  "source": "18.py",
+  "method": "fourSum",
+  "params": [
+    {
+      "name": "nums",
+      "type": "integer[]"
+    },
+    {
+      "name": "target",
+      "type": "integer"
+    }
+  ],
+  "return_type": "list<list<integer>>",
+  "unordered": [
+    0
+  ],
+  "file": "solution.py"
+}

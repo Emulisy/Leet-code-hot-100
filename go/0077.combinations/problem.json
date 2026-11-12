@@ -1,0 +1,22 @@
+{
+  "id": 77,
+  "title": "Combinations",
+  "language": "go",
+  "source": "77.go",
+  "method": "combine",
+  "params": [
+    {
+      "name": "n",
+      "type": "integer"
+    },
+    {
+      "name": "k",
+      "type": "integer"
+    }
+  ],
+  "return_type": "list<list<integer>>",
+  "unordered": [
+    0
+  ],
+  "file": "solution.go"
+}

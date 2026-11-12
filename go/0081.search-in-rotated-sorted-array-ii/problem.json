@@ -1,0 +1,20 @@
+{
+  "id": 81,
+  "title": "Search in Rotated Sorted Array II",
+  "language": "go",
+  "source": "81.go",
+  "method": "search",
+  "params": [
+    {
+      "name": "nums",
+      "type": "integer[]"
+    },
+    {
+      "name": "target",
+      "type": "integer"
+    }
+  ],
+  "return_type": "boolean",
+  "unordered": [],
+  "file": "solution.go"
+}

@@ -1,0 +1,16 @@
+{
+  "id": 55,
+  "title": "Jump Game",
+  "language": "javascript",
+  "source": "55.js",
+  "method": "canJump",
+  "params": [
+    {
+      "name": "nums",
+      "type": "integer[]"
+    }
+  ],
+  "return_type": "boolean",
+  "unordered": [],
+  "file": "solution.js"
+}

@@ -1,0 +1,20 @@
+{
+  "id": 62,
+  "title": "Unique Paths",
+  "language": "go",
+  "source": "62.go",
+  "method": "uniquePaths",
+  "params": [
+    {
+      "name": "m",
+      "type": "integer"
+    },
+    {
+      "name": "n",
+      "type": "integer"
+    }
+  ],
+  "return_type": "integer",
+  "unordered": [],
+  "file": "solution.go"
+}

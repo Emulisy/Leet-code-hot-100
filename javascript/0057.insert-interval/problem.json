@@ -1,0 +1,20 @@
+{
+  "id": 57,
+  "title": "Insert Interval",
+  "language": "javascript",
+  "source": "57.js",
+  "method": "insert",
+  "params": [
+    {
+      "name": "intervals",
+      "type": "integer[][]"
+    },
+    {
+      "name": "newInterval",
+      "type": "integer[]"
+    }
+  ],
+  "return_type": "integer[][]",
+  "unordered": [],
+  "file": "solution.js"
+}

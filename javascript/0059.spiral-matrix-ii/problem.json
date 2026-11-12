@@ -1,0 +1,17 @@
+{
+  "id": 59,
+  "title": "Spiral Matrix II",
+  "language": "javascript",
+  "source": "58.js",
+  "method": "generateMatrix",
+  "params": [
+    {
+      "name": "n",
+      "type": "integer"
+    }
+  ],
+  "return_type": "integer[][]",
+  "unordered": [],
+  "file": "solution.js",
+  "note": "The implementation is Spiral Matrix II (LeetCode 59); corrected its destination ID."
+}

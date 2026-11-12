@@ -1,0 +1,17 @@
+{
+  "id": 38,
+  "title": "Count and Say",
+  "language": "java",
+  "source": "Solution38.java",
+  "method": "countAndSay",
+  "params": [
+    {
+      "name": "n",
+      "type": "integer"
+    }
+  ],
+  "return_type": "string",
+  "unordered": [],
+  "class": "Solution38",
+  "file": "Solution38.java"
+}

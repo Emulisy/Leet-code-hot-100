@@ -1,0 +1,16 @@
+{
+  "id": 70,
+  "title": "Climbing Stairs",
+  "language": "go",
+  "source": "70.go",
+  "method": "climbStairs",
+  "params": [
+    {
+      "name": "n",
+      "type": "integer"
+    }
+  ],
+  "return_type": "integer",
+  "unordered": [],
+  "file": "solution.go"
+}

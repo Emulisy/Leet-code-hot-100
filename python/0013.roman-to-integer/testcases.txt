@@ -1,0 +1,14 @@
+input:
+"III"
+output:
+3
+
+input:
+"LVIII"
+output:
+58
+
+input:
+"MCMXCIV"
+output:
+1994

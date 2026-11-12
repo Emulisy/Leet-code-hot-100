@@ -1,0 +1,20 @@
+{
+  "id": 60,
+  "title": "Permutation Sequence",
+  "language": "javascript",
+  "source": "60.js",
+  "method": "getPermutation",
+  "params": [
+    {
+      "name": "n",
+      "type": "integer"
+    },
+    {
+      "name": "k",
+      "type": "integer"
+    }
+  ],
+  "return_type": "string",
+  "unordered": [],
+  "file": "solution.js"
+}

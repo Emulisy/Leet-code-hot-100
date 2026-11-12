@@ -1,0 +1,22 @@
+{
+  "id": 21,
+  "title": "Merge Two Sorted Lists",
+  "language": "python",
+  "source": "21.py",
+  "method": "mergeTwoLists",
+  "params": [
+    {
+      "name": "list1",
+      "type": "ListNode",
+      "dealloc": false
+    },
+    {
+      "name": "list2",
+      "type": "ListNode",
+      "dealloc": false
+    }
+  ],
+  "return_type": "ListNode",
+  "unordered": [],
+  "file": "solution.py"
+}

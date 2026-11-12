@@ -1,0 +1,17 @@
+{
+  "id": 41,
+  "title": "First Missing Positive",
+  "language": "java",
+  "source": "Solution41.java",
+  "method": "firstMissingPositive",
+  "params": [
+    {
+      "name": "nums",
+      "type": "integer[]"
+    }
+  ],
+  "return_type": "integer",
+  "unordered": [],
+  "class": "Solution41",
+  "file": "Solution41.java"
+}

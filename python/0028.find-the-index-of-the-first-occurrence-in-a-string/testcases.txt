@@ -1,0 +1,11 @@
+input:
+"sadbutsad"
+"sad"
+output:
+0
+
+input:
+"leetcode"
+"leeto"
+output:
+-1

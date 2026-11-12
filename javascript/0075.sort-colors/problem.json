@@ -1,0 +1,17 @@
+{
+  "id": 75,
+  "title": "Sort Colors",
+  "language": "javascript",
+  "source": "75.js",
+  "method": "sortColors",
+  "params": [
+    {
+      "name": "nums",
+      "type": "integer[]"
+    }
+  ],
+  "return_type": "void",
+  "unordered": [],
+  "output_arg": 0,
+  "file": "solution.js"
+}

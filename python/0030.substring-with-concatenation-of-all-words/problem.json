@@ -1,0 +1,22 @@
+{
+  "id": 30,
+  "title": "Substring with Concatenation of All Words",
+  "language": "python",
+  "source": "30.py",
+  "method": "findSubstring",
+  "params": [
+    {
+      "name": "s",
+      "type": "string"
+    },
+    {
+      "name": "words",
+      "type": "string[]"
+    }
+  ],
+  "return_type": "list<integer>",
+  "unordered": [
+    0
+  ],
+  "file": "solution.py"
+}

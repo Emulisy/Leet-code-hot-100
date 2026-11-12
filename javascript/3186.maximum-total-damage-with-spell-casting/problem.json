@@ -1,0 +1,16 @@
+{
+  "id": 3186,
+  "title": "Maximum Total Damage With Spell Casting",
+  "language": "javascript",
+  "source": "3186.js",
+  "method": "maximumTotalDamage",
+  "params": [
+    {
+      "name": "power",
+      "type": "integer[]"
+    }
+  ],
+  "return_type": "long",
+  "unordered": [],
+  "file": "solution.js"
+}

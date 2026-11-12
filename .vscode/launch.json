@@ -1,0 +1,39 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Attach: JavaScript local test",
+      "type": "node",
+      "request": "attach",
+      "address": "127.0.0.1",
+      "port": 9229,
+      "skipFiles": ["<node_internals>/**"],
+      "timeout": 60000
+    },
+    {
+      "name": "Attach: Java local test",
+      "type": "java",
+      "request": "attach",
+      "hostName": "127.0.0.1",
+      "port": 5005,
+      "sourcePaths": ["${fileDirname}", "${workspaceFolder}/java", "${workspaceFolder}/tools"]
+    },
+    {
+      "name": "Attach: Python local test",
+      "type": "debugpy",
+      "request": "attach",
+      "connect": {"host": "127.0.0.1", "port": 5678},
+      "justMyCode": true
+    },
+    {
+      "name": "Attach: Go local test",
+      "type": "go",
+      "request": "attach",
+      "mode": "remote",
+      "host": "127.0.0.1",
+      "port": 2345,
+      "debugAdapter": "dlv-dap",
+      "cwd": "${workspaceFolder}/go"
+    }
+  ]
+}

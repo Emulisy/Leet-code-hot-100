@@ -1,0 +1,18 @@
+{
+  "id": 48,
+  "title": "Rotate Image",
+  "language": "java",
+  "source": "Solution48.java",
+  "method": "rotate",
+  "params": [
+    {
+      "name": "matrix",
+      "type": "integer[][]"
+    }
+  ],
+  "return_type": "void",
+  "unordered": [],
+  "output_arg": 0,
+  "class": "Solution48",
+  "file": "Solution48.java"
+}

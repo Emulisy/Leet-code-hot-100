@@ -1,0 +1,16 @@
+{
+  "id": 13,
+  "title": "Roman to Integer",
+  "language": "python",
+  "source": "13.py",
+  "method": "romanToInt",
+  "params": [
+    {
+      "name": "s",
+      "type": "string"
+    }
+  ],
+  "return_type": "integer",
+  "unordered": [],
+  "file": "solution.py"
+}

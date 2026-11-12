@@ -1,0 +1,31 @@
+{
+  "id": 88,
+  "title": "Merge Sorted Array",
+  "language": "go",
+  "source": "88.go",
+  "method": "merge",
+  "params": [
+    {
+      "name": "nums1",
+      "type": "integer[]",
+      "implicitsizeparam": false
+    },
+    {
+      "name": "m",
+      "type": "integer"
+    },
+    {
+      "name": "nums2",
+      "type": "integer[]",
+      "implicitsizeparam": false
+    },
+    {
+      "name": "n",
+      "type": "integer"
+    }
+  ],
+  "return_type": "void",
+  "unordered": [],
+  "output_arg": 0,
+  "file": "solution.go"
+}

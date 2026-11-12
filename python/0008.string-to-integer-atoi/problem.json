@@ -1,0 +1,16 @@
+{
+  "id": 8,
+  "title": "String to Integer (atoi)",
+  "language": "python",
+  "source": "8.py",
+  "method": "myAtoi",
+  "params": [
+    {
+      "name": "s",
+      "type": "string"
+    }
+  ],
+  "return_type": "integer",
+  "unordered": [],
+  "file": "solution.py"
+}

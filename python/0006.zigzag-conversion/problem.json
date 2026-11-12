@@ -1,0 +1,20 @@
+{
+  "id": 6,
+  "title": "Zigzag Conversion",
+  "language": "python",
+  "source": "6.py",
+  "method": "convert",
+  "params": [
+    {
+      "name": "s",
+      "type": "string"
+    },
+    {
+      "name": "numRows",
+      "type": "integer"
+    }
+  ],
+  "return_type": "string",
+  "unordered": [],
+  "file": "solution.py"
+}

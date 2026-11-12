@@ -1,0 +1,17 @@
+{
+  "id": 45,
+  "title": "Jump Game II",
+  "language": "java",
+  "source": "Solution45.java",
+  "method": "jump",
+  "params": [
+    {
+      "name": "nums",
+      "type": "integer[]"
+    }
+  ],
+  "return_type": "integer",
+  "unordered": [],
+  "class": "Solution45",
+  "file": "Solution45.java"
+}

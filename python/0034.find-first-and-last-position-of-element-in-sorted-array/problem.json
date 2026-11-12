@@ -1,0 +1,20 @@
+{
+  "id": 34,
+  "title": "Find First and Last Position of Element in Sorted Array",
+  "language": "python",
+  "source": "34.py",
+  "method": "searchRange",
+  "params": [
+    {
+      "name": "nums",
+      "type": "integer[]"
+    },
+    {
+      "name": "target",
+      "type": "integer"
+    }
+  ],
+  "return_type": "integer[]",
+  "unordered": [],
+  "file": "solution.py"
+}

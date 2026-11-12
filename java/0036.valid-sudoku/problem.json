@@ -1,0 +1,17 @@
+{
+  "id": 36,
+  "title": "Valid Sudoku",
+  "language": "java",
+  "source": "Solution36.java",
+  "method": "isValidSudoku",
+  "params": [
+    {
+      "name": "board",
+      "type": "character[][]"
+    }
+  ],
+  "return_type": "boolean",
+  "unordered": [],
+  "class": "Solution36",
+  "file": "Solution36.java"
+}

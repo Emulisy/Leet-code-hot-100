@@ -1,0 +1,9 @@
+input:
+"23"
+output:
+["ad","ae","af","bd","be","bf","cd","ce","cf"]
+
+input:
+"2"
+output:
+["a","b","c"]

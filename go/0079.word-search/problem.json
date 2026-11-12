@@ -1,0 +1,20 @@
+{
+  "id": 79,
+  "title": "Word Search",
+  "language": "go",
+  "source": "79.go",
+  "method": "exist",
+  "params": [
+    {
+      "name": "board",
+      "type": "character[][]"
+    },
+    {
+      "name": "word",
+      "type": "string"
+    }
+  ],
+  "return_type": "boolean",
+  "unordered": [],
+  "file": "solution.go"
+}

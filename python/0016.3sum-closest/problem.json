@@ -1,0 +1,20 @@
+{
+  "id": 16,
+  "title": "3Sum Closest",
+  "language": "python",
+  "source": "16.py",
+  "method": "threeSumClosest",
+  "params": [
+    {
+      "name": "nums",
+      "type": "integer[]"
+    },
+    {
+      "name": "target",
+      "type": "integer"
+    }
+  ],
+  "return_type": "integer",
+  "unordered": [],
+  "file": "solution.py"
+}

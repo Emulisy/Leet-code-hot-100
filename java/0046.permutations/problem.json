@@ -1,0 +1,19 @@
+{
+  "id": 46,
+  "title": "Permutations",
+  "language": "java",
+  "source": "Solution46.java",
+  "method": "permute",
+  "params": [
+    {
+      "name": "nums",
+      "type": "integer[]"
+    }
+  ],
+  "return_type": "list<list<integer>>",
+  "unordered": [
+    0
+  ],
+  "class": "Solution46",
+  "file": "Solution46.java"
+}

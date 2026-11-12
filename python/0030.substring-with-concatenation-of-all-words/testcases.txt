@@ -1,0 +1,17 @@
+input:
+"barfoothefoobarman"
+["foo","bar"]
+output:
+[0,9]
+
+input:
+"wordgoodgoodgoodbestword"
+["word","good","best","word"]
+output:
+[]
+
+input:
+"barfoofoobarthefoobarman"
+["bar","foo","the"]
+output:
+[6,9,12]

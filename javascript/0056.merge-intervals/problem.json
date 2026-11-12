@@ -1,0 +1,16 @@
+{
+  "id": 56,
+  "title": "Merge Intervals",
+  "language": "javascript",
+  "source": "56.js",
+  "method": "merge",
+  "params": [
+    {
+      "name": "intervals",
+      "type": "integer[][]"
+    }
+  ],
+  "return_type": "integer[][]",
+  "unordered": [],
+  "file": "solution.js"
+}

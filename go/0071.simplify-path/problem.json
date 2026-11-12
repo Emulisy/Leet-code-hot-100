@@ -1,0 +1,16 @@
+{
+  "id": 71,
+  "title": "Simplify Path",
+  "language": "go",
+  "source": "71.go",
+  "method": "simplifyPath",
+  "params": [
+    {
+      "name": "path",
+      "type": "string"
+    }
+  ],
+  "return_type": "string",
+  "unordered": [],
+  "file": "solution.go"
+}

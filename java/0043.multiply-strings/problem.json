@@ -1,0 +1,21 @@
+{
+  "id": 43,
+  "title": "Multiply Strings",
+  "language": "java",
+  "source": "Solution43.java",
+  "method": "multiply",
+  "params": [
+    {
+      "name": "num1",
+      "type": "string"
+    },
+    {
+      "name": "num2",
+      "type": "string"
+    }
+  ],
+  "return_type": "string",
+  "unordered": [],
+  "class": "Solution43",
+  "file": "Solution43.java"
+}

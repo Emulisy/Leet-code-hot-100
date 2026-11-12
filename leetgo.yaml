@@ -1,0 +1,18 @@
+language: en
+code:
+  lang: go
+  filename_template: '{{ .Id | padWithZero 4 }}.{{ .Slug }}'
+  separate_description_file: true
+  go:
+    out_dir: go
+  python3:
+    out_dir: python
+    executable: python
+  java:
+    out_dir: java
+leetcode:
+  site: https://leetcode.com
+  credentials:
+    from: [none]
+editor:
+  use: none

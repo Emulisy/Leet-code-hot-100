@@ -1,0 +1,17 @@
+input:
+3
+3
+output:
+"213"
+
+input:
+4
+9
+output:
+"2314"
+
+input:
+3
+1
+output:
+"123"

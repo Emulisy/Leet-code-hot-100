@@ -1,0 +1,16 @@
+{
+  "id": 69,
+  "title": "Sqrt(x)",
+  "language": "go",
+  "source": "69.go",
+  "method": "mySqrt",
+  "params": [
+    {
+      "name": "x",
+      "type": "integer"
+    }
+  ],
+  "return_type": "integer",
+  "unordered": [],
+  "file": "solution.go"
+}

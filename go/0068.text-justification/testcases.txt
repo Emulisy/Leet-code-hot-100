@@ -1,0 +1,17 @@
+input:
+["This","is","an","example","of","text","justification."]
+16
+output:
+["This    is    an","example  of text","justification.  "]
+
+input:
+["What","must","be","acknowledgment","shall","be"]
+16
+output:
+["What   must   be","acknowledgment  ","shall be        "]
+
+input:
+["Science","is","what","we","understand","well","enough","to","explain","to","a","computer.","Art","is","everything","else","we","do"]
+20
+output:
+["Science  is  what we","understand      well","enough to explain to","a  computer.  Art is","everything  else  we","do                  "]

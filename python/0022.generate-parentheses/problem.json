@@ -1,0 +1,18 @@
+{
+  "id": 22,
+  "title": "Generate Parentheses",
+  "language": "python",
+  "source": "22.py",
+  "method": "generateParenthesis",
+  "params": [
+    {
+      "name": "n",
+      "type": "integer"
+    }
+  ],
+  "return_type": "list<string>",
+  "unordered": [
+    0
+  ],
+  "file": "solution.py"
+}

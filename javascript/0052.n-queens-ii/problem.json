@@ -1,0 +1,16 @@
+{
+  "id": 52,
+  "title": "N-Queens II",
+  "language": "javascript",
+  "source": "52.js",
+  "method": "totalNQueens",
+  "params": [
+    {
+      "name": "n",
+      "type": "integer"
+    }
+  ],
+  "return_type": "integer",
+  "unordered": [],
+  "file": "solution.js"
+}

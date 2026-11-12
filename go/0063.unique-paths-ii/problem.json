@@ -1,0 +1,16 @@
+{
+  "id": 63,
+  "title": "Unique Paths II",
+  "language": "go",
+  "source": "63.go",
+  "method": "uniquePathsWithObstacles",
+  "params": [
+    {
+      "name": "obstacleGrid",
+      "type": "integer[][]"
+    }
+  ],
+  "return_type": "integer",
+  "unordered": [],
+  "file": "solution.go"
+}

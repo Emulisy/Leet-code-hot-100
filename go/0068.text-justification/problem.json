@@ -1,0 +1,20 @@
+{
+  "id": 68,
+  "title": "Text Justification",
+  "language": "go",
+  "source": "68.go",
+  "method": "fullJustify",
+  "params": [
+    {
+      "name": "words",
+      "type": "string[]"
+    },
+    {
+      "name": "maxWidth",
+      "type": "integer"
+    }
+  ],
+  "return_type": "list<string>",
+  "unordered": [],
+  "file": "solution.go"
+}

@@ -1,0 +1,20 @@
+{
+  "id": 72,
+  "title": "Edit Distance",
+  "language": "go",
+  "source": "72.go",
+  "method": "minDistance",
+  "params": [
+    {
+      "name": "word1",
+      "type": "string"
+    },
+    {
+      "name": "word2",
+      "type": "string"
+    }
+  ],
+  "return_type": "integer",
+  "unordered": [],
+  "file": "solution.go"
+}

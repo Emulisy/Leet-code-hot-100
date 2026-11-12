@@ -1,0 +1,17 @@
+{
+  "id": 73,
+  "title": "Set Matrix Zeroes",
+  "language": "go",
+  "source": "73.go",
+  "method": "setZeroes",
+  "params": [
+    {
+      "name": "matrix",
+      "type": "integer[][]"
+    }
+  ],
+  "return_type": "void",
+  "unordered": [],
+  "output_arg": 0,
+  "file": "solution.go"
+}

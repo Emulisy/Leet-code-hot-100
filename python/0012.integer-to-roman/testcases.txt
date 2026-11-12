@@ -1,0 +1,14 @@
+input:
+3749
+output:
+"MMMDCCXLIX"
+
+input:
+58
+output:
+"LVIII"
+
+input:
+1994
+output:
+"MCMXCIV"

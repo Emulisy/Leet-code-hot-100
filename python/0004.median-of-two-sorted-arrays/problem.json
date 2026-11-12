@@ -1,0 +1,20 @@
+{
+  "id": 4,
+  "title": "Median of Two Sorted Arrays",
+  "language": "python",
+  "source": "4.py",
+  "method": "findMedianSortedArrays",
+  "params": [
+    {
+      "name": "nums1",
+      "type": "integer[]"
+    },
+    {
+      "name": "nums2",
+      "type": "integer[]"
+    }
+  ],
+  "return_type": "double",
+  "unordered": [],
+  "file": "solution.py"
+}

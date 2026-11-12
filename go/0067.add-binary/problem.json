@@ -1,0 +1,20 @@
+{
+  "id": 67,
+  "title": "Add Binary",
+  "language": "go",
+  "source": "67.go",
+  "method": "addBinary",
+  "params": [
+    {
+      "name": "a",
+      "type": "string"
+    },
+    {
+      "name": "b",
+      "type": "string"
+    }
+  ],
+  "return_type": "string",
+  "unordered": [],
+  "file": "solution.go"
+}

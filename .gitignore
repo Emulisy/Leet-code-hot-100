@@ -1,0 +1,13 @@
+.cache/
+.tools/
+.venv/
+**/.venv/
+**/__pycache__/
+*.py[cod]
+*.class
+node_modules/
+.DS_Store
+.idea/out/
+.env
+.env.*
+!.env.example

@@ -1,0 +1,20 @@
+{
+  "id": 2900,
+  "title": "Longest Unequal Adjacent Groups Subsequence I",
+  "language": "javascript",
+  "source": "2900.js",
+  "method": "getLongestSubsequence",
+  "params": [
+    {
+      "type": "string[]",
+      "name": "words"
+    },
+    {
+      "type": "integer[]",
+      "name": "groups"
+    }
+  ],
+  "return_type": "list<string>",
+  "unordered": [],
+  "file": "solution.js"
+}

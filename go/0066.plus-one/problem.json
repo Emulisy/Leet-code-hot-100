@@ -1,0 +1,16 @@
+{
+  "id": 66,
+  "title": "Plus One",
+  "language": "go",
+  "source": "66.go",
+  "method": "plusOne",
+  "params": [
+    {
+      "name": "digits",
+      "type": "integer[]"
+    }
+  ],
+  "return_type": "integer[]",
+  "unordered": [],
+  "file": "solution.go"
+}

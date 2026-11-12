@@ -1,0 +1,16 @@
+{
+  "id": 32,
+  "title": "Longest Valid Parentheses",
+  "language": "python",
+  "source": "32.py",
+  "method": "longestValidParentheses",
+  "params": [
+    {
+      "name": "s",
+      "type": "string"
+    }
+  ],
+  "return_type": "integer",
+  "unordered": [],
+  "file": "solution.py"
+}

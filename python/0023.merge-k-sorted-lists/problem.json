@@ -1,0 +1,17 @@
+{
+  "id": 23,
+  "title": "Merge k Sorted Lists",
+  "language": "python",
+  "source": "23.py",
+  "method": "mergeKLists",
+  "params": [
+    {
+      "name": "lists",
+      "type": "ListNode[]",
+      "dealloc": false
+    }
+  ],
+  "return_type": "ListNode",
+  "unordered": [],
+  "file": "solution.py"
+}

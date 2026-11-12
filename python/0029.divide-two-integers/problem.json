@@ -1,0 +1,20 @@
+{
+  "id": 29,
+  "title": "Divide Two Integers",
+  "language": "python",
+  "source": "29.py",
+  "method": "divide",
+  "params": [
+    {
+      "name": "dividend",
+      "type": "integer"
+    },
+    {
+      "name": "divisor",
+      "type": "integer"
+    }
+  ],
+  "return_type": "integer",
+  "unordered": [],
+  "file": "solution.py"
+}

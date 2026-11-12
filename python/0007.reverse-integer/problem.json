@@ -1,0 +1,16 @@
+{
+  "id": 7,
+  "title": "Reverse Integer",
+  "language": "python",
+  "source": "7.py",
+  "method": "reverse",
+  "params": [
+    {
+      "name": "x",
+      "type": "integer"
+    }
+  ],
+  "return_type": "integer",
+  "unordered": [],
+  "file": "solution.py"
+}

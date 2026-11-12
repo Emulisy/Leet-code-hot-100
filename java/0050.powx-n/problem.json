@@ -1,0 +1,21 @@
+{
+  "id": 50,
+  "title": "Pow(x, n)",
+  "language": "java",
+  "source": "Solution50.java",
+  "method": "myPow",
+  "params": [
+    {
+      "name": "x",
+      "type": "double"
+    },
+    {
+      "name": "n",
+      "type": "integer"
+    }
+  ],
+  "return_type": "double",
+  "unordered": [],
+  "class": "Solution50",
+  "file": "Solution50.java"
+}

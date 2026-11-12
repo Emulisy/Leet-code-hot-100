@@ -1,0 +1,21 @@
+{
+  "id": 44,
+  "title": "Wildcard Matching",
+  "language": "java",
+  "source": "Solution44.java",
+  "method": "isMatch",
+  "params": [
+    {
+      "name": "s",
+      "type": "string"
+    },
+    {
+      "name": "p",
+      "type": "string"
+    }
+  ],
+  "return_type": "boolean",
+  "unordered": [],
+  "class": "Solution44",
+  "file": "Solution44.java"
+}

@@ -1,0 +1,16 @@
+{
+  "id": 65,
+  "title": "Valid Number",
+  "language": "go",
+  "source": "65.go",
+  "method": "isNumber",
+  "params": [
+    {
+      "name": "s",
+      "type": "string"
+    }
+  ],
+  "return_type": "boolean",
+  "unordered": [],
+  "file": "solution.go"
+}

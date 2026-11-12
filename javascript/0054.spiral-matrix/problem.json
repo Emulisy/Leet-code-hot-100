@@ -1,0 +1,16 @@
+{
+  "id": 54,
+  "title": "Spiral Matrix",
+  "language": "javascript",
+  "source": "54.js",
+  "method": "spiralOrder",
+  "params": [
+    {
+      "name": "matrix",
+      "type": "integer[][]"
+    }
+  ],
+  "return_type": "list<integer>",
+  "unordered": [],
+  "file": "solution.js"
+}

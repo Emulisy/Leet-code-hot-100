@@ -2,7 +2,6 @@
   "id": 69,
   "title": "Sqrt(x)",
   "language": "go",
-  "source": "69.go",
   "method": "mySqrt",
   "params": [
     {

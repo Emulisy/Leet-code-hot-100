@@ -2,7 +2,6 @@
   "id": 81,
   "title": "Search in Rotated Sorted Array II",
   "language": "go",
-  "source": "81.go",
   "method": "search",
   "params": [
     {

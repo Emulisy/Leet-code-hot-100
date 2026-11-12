@@ -2,7 +2,6 @@
   "id": 53,
   "title": "Maximum Subarray",
   "language": "javascript",
-  "source": "53.js",
   "method": "maxSubArray",
   "params": [
     {

@@ -2,7 +2,6 @@
   "id": 55,
   "title": "Jump Game",
   "language": "javascript",
-  "source": "55.js",
   "method": "canJump",
   "params": [
     {

@@ -2,7 +2,6 @@
   "id": 16,
   "title": "3Sum Closest",
   "language": "python",
-  "source": "16.py",
   "method": "threeSumClosest",
   "params": [
     {

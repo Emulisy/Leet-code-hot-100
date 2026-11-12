@@ -2,7 +2,6 @@
   "id": 48,
   "title": "Rotate Image",
   "language": "java",
-  "source": "Solution48.java",
   "method": "rotate",
   "params": [
     {

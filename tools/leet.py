@@ -1,4 +1,4 @@
-"""Offline local tests for migrated Go, Python, Java and JavaScript solutions."""
+"""Offline local tests for Go, Python, Java and JavaScript solutions."""
 from __future__ import annotations
 
 import argparse
@@ -36,7 +36,7 @@ def problems(language: str, qid: str = "all") -> list[tuple[Path, dict]]:
             if qid == "all" or str(config["id"]) == str(int(qid)):
                 found.append((config_path, config))
     if not found:
-        raise ValueError(f"No migrated solution found for {language} {qid}")
+        raise ValueError(f"No solution found for {language} {qid}")
     return sorted(found, key=lambda item: (item[1]["language"], item[1]["id"]))
 
 
@@ -193,7 +193,7 @@ def extract_output(stdout: str, marker: str = "output:"):
 
 def add_problem(language: str, qid: str) -> int:
     """Generate a new problem through leetgo, then register the local adapter."""
-    from migrate import UNORDERED, examples, metadata
+    from problem_data import UNORDERED, examples, metadata
 
     language = LANGUAGES[language]
     binary = ROOT / (".tools/leetgo.exe" if os.name == "nt" else ".tools/leetgo")
@@ -341,7 +341,7 @@ def main() -> int:
     test.add_argument("--cases", help="use a different testcase file")
     test.add_argument("--timeout", type=float, default=5, help="seconds per test case (default: 5)")
     test.add_argument("--debug", action="store_true", help="wait for a debugger; defaults to case 1")
-    listing = subcommands.add_parser("list", help="list migrated solutions")
+    listing = subcommands.add_parser("list", help="list local solutions")
     listing.add_argument("language", nargs="?", default="all", choices=LANGUAGES)
     export = subcommands.add_parser("export", help="print submission code without the local I/O wrapper")
     export.add_argument("language", choices=[lang for lang in LANGUAGES if lang != "all"])

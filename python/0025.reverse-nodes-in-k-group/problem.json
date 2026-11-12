@@ -2,7 +2,6 @@
   "id": 25,
   "title": "Reverse Nodes in k-Group",
   "language": "python",
-  "source": "25.py",
   "method": "reverseKGroup",
   "params": [
     {

@@ -2,7 +2,6 @@
   "id": 6,
   "title": "Zigzag Conversion",
   "language": "python",
-  "source": "6.py",
   "method": "convert",
   "params": [
     {

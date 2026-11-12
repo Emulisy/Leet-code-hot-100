@@ -2,7 +2,6 @@
   "id": 7,
   "title": "Reverse Integer",
   "language": "python",
-  "source": "7.py",
   "method": "reverse",
   "params": [
     {

@@ -2,7 +2,6 @@
   "id": 77,
   "title": "Combinations",
   "language": "go",
-  "source": "77.go",
   "method": "combine",
   "params": [
     {

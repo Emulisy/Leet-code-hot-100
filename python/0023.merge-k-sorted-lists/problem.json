@@ -2,7 +2,6 @@
   "id": 23,
   "title": "Merge k Sorted Lists",
   "language": "python",
-  "source": "23.py",
   "method": "mergeKLists",
   "params": [
     {

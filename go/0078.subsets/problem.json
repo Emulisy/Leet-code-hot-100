@@ -2,7 +2,6 @@
   "id": 78,
   "title": "Subsets",
   "language": "go",
-  "source": "78.go",
   "method": "subsets",
   "params": [
     {

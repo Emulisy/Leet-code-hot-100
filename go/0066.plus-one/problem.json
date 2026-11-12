@@ -2,7 +2,6 @@
   "id": 66,
   "title": "Plus One",
   "language": "go",
-  "source": "66.go",
   "method": "plusOne",
   "params": [
     {

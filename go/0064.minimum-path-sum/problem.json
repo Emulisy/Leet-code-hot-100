@@ -2,7 +2,6 @@
   "id": 64,
   "title": "Minimum Path Sum",
   "language": "go",
-  "source": "64.go",
   "method": "minPathSum",
   "params": [
     {

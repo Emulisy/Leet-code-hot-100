@@ -2,7 +2,6 @@
   "id": 20,
   "title": "Valid Parentheses",
   "language": "python",
-  "source": "20.py",
   "method": "isValid",
   "params": [
     {

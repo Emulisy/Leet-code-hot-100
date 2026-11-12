@@ -2,7 +2,6 @@
   "id": 30,
   "title": "Substring with Concatenation of All Words",
   "language": "python",
-  "source": "30.py",
   "method": "findSubstring",
   "params": [
     {

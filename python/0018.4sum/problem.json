@@ -2,7 +2,6 @@
   "id": 18,
   "title": "4Sum",
   "language": "python",
-  "source": "18.py",
   "method": "fourSum",
   "params": [
     {

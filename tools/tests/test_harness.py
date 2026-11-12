@@ -1,4 +1,4 @@
-"""Regression tests for migration pairing and local-runner failure detection."""
+"""Regression tests for sample parsing and local-runner failure detection."""
 import json
 import shutil
 import subprocess
@@ -9,7 +9,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 import leet
-import migrate
+import problem_data
 
 
 class HarnessTests(unittest.TestCase):
@@ -30,14 +30,14 @@ class HarnessTests(unittest.TestCase):
                     "exampleTestcases": "1\n4", "content":
                     '<p>Input: n = 4</p><p>Output: "1211"</p>'
                     '<p>Input: n = 1</p><p>Output: "1"</p>'}
-        cases = self.fixture(migrate.examples(question), 1)
+        cases = self.fixture(problem_data.examples(question), 1)
         self.assertEqual([(c["args"], c["expected"]) for c in cases], [([4], "1211"), ([1], "1")])
 
     def test_multiline_example_and_in_place_output_annotation(self):
         question = {"titleSlug": "example", "metaData": {"params": [{"name": "nums"}]},
                     "content": '<pre>Input: nums = [1,1,2]\nOutput: 2, nums = [1,2,_]</pre>'
                                '<pre>Input: nums = []\nOutput: [\n&nbsp; "a  b",\n "c"\n]</pre>'}
-        cases = self.fixture(migrate.examples(question), 1)
+        cases = self.fixture(problem_data.examples(question), 1)
         self.assertEqual(cases[0]["expected"], 2)
         self.assertEqual(cases[1]["expected"], ["a  b", "c"])
 
@@ -66,12 +66,11 @@ class HarnessTests(unittest.TestCase):
         self.assertFalse(leet.check_prefix(config, case, 5, [1, 1, 1, 2, 2, 3]))
         self.assertTrue(leet.check_prefix(config, case, 5, [1, 1, 2, 2, 3, 3]))
 
-    def test_python_demos_and_custom_node_definitions_removed(self):
-        body = migrate.python_body('from typing import Optional\nclass ListNode: pass\n'
-                                   'class Solution:\n    def f(self): return 3\nprint("demo")\n')
-        self.assertIn('def f(self): return 3', body)
-        self.assertNotIn('class ListNode', body)
-        self.assertNotIn('print("demo")', body)
+    def test_missing_example_parameter_rejected(self):
+        question = {"titleSlug": "example", "metaData": {"params": [{"name": "n"}]},
+                    "content": "Input: other = 1\nOutput: 2"}
+        with self.assertRaisesRegex(ValueError, "Missing example parameter n"):
+            problem_data.examples(question)
 
     def execute(self, language, source, params, result_type, stdin):
         config = {"id": 999999, "language": language, "method": "echo",
@@ -118,10 +117,10 @@ class HarnessTests(unittest.TestCase):
 
     def test_python_escaped_string_io(self):
         value = 'quote" slash\\ newline\n'
-        question = {"questionFrontendId": "999999", "titleSlug": "echo", "metaData": {
-            "name": "echo", "params": [{"name": "text", "type": "string"}], "return": {"type": "string"}}}
-        source = migrate.wrap_python('class Solution:\n    def echo(self, text): return text\n', question)
-        result = self.execute("python", source, ["string"], "string", json.dumps(value) + "\n")
+        config_path, config = leet.problems("python", "14")[0]
+        command, cwd = leet.command_for(config_path, config)
+        result = subprocess.run(command, input=json.dumps([value, value]) + "\n", capture_output=True,
+                                text=True, encoding="utf-8", cwd=cwd, env=leet.environment(), timeout=3)
         self.assertEqual(result.returncode, 0, result.stderr)
         self.assertEqual(leet.extract_output(result.stdout), value)
 

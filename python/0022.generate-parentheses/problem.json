@@ -2,7 +2,6 @@
   "id": 22,
   "title": "Generate Parentheses",
   "language": "python",
-  "source": "22.py",
   "method": "generateParenthesis",
   "params": [
     {

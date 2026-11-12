@@ -2,7 +2,6 @@
   "id": 88,
   "title": "Merge Sorted Array",
   "language": "go",
-  "source": "88.go",
   "method": "merge",
   "params": [
     {

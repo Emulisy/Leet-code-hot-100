@@ -2,7 +2,6 @@
   "id": 31,
   "title": "Next Permutation",
   "language": "python",
-  "source": "31.py",
   "method": "nextPermutation",
   "params": [
     {

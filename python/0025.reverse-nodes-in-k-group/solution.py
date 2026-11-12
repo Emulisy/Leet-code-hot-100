@@ -20,16 +20,23 @@ class Solution:
         return prev
 
     def reverseKGroup(self, head, k):
-        count, temp = 0, head
-        while temp and count < k:
-            temp = temp.next
-            count += 1
-        if count < k:
+        if head is None or k == 1:
             return head
 
-        new_head = self.reverse(head, temp)
-        head.next = self.reverseKGroup(temp, k)
-        return new_head
+        dummy = ListNode(0)
+        dummy.next = head
+        previous = dummy
+        while True:
+            start = previous.next
+            end = start
+            for _ in range(k):
+                if end is None:
+                    return dummy.next
+                end = end.next
+
+            previous.next = self.reverse(start, end)
+            start.next = end
+            previous = start
 
 # @lc code=end
 

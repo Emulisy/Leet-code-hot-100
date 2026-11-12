@@ -2,7 +2,6 @@
   "id": 82,
   "title": "Remove Duplicates from Sorted List II",
   "language": "go",
-  "source": "82.go",
   "method": "deleteDuplicates",
   "params": [
     {

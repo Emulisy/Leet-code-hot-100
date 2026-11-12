@@ -2,7 +2,6 @@
   "id": 28,
   "title": "Find the Index of the First Occurrence in a String",
   "language": "python",
-  "source": "28.py",
   "method": "strStr",
   "params": [
     {

@@ -2,7 +2,6 @@
   "id": 24,
   "title": "Swap Nodes in Pairs",
   "language": "python",
-  "source": "24.py",
   "method": "swapPairs",
   "params": [
     {

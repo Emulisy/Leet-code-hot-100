@@ -2,7 +2,6 @@
   "id": 50,
   "title": "Pow(x, n)",
   "language": "java",
-  "source": "Solution50.java",
   "method": "myPow",
   "params": [
     {

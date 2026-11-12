@@ -30,9 +30,7 @@ class Solution(object):
         index = len(res) - 1
         head = ListNode(int(res[index]))
         current = head
-        while True:
-            if index < 0:
-                break
+        while index > 0:
             index -= 1
             current.next = ListNode(int(res[index]))
             current = current.next

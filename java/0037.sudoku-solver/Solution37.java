@@ -10,6 +10,10 @@ public class Solution37 {
     private List<int[]> empties = new ArrayList<>();
 
     public void solveSudoku(char[][] board) {
+        Arrays.fill(rows, 0);
+        Arrays.fill(cols, 0);
+        Arrays.fill(boxes, 0);
+        empties.clear();
         // Preprocess board: fill bitmasks and collect empty cells
         for (int r = 0; r < SIZE; r++) {
             for (int c = 0; c < SIZE; c++) {

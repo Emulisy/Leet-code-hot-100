@@ -2,7 +2,6 @@
   "id": 79,
   "title": "Word Search",
   "language": "go",
-  "source": "79.go",
   "method": "exist",
   "params": [
     {

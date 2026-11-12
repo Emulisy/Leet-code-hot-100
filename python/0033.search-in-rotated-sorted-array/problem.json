@@ -2,7 +2,6 @@
   "id": 33,
   "title": "Search in Rotated Sorted Array",
   "language": "python",
-  "source": "33.py",
   "method": "search",
   "params": [
     {

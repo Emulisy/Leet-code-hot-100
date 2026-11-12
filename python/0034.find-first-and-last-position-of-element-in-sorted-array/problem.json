@@ -2,7 +2,6 @@
   "id": 34,
   "title": "Find First and Last Position of Element in Sorted Array",
   "language": "python",
-  "source": "34.py",
   "method": "searchRange",
   "params": [
     {

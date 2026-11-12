@@ -2,7 +2,6 @@
   "id": 12,
   "title": "Integer to Roman",
   "language": "python",
-  "source": "12.py",
   "method": "intToRoman",
   "params": [
     {

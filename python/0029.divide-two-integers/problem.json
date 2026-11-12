@@ -2,7 +2,6 @@
   "id": 29,
   "title": "Divide Two Integers",
   "language": "python",
-  "source": "29.py",
   "method": "divide",
   "params": [
     {

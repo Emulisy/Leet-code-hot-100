@@ -2,7 +2,6 @@
   "id": 27,
   "title": "Remove Element",
   "language": "python",
-  "source": "27.py",
   "method": "removeElement",
   "params": [
     {

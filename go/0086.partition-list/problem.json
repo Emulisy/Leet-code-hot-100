@@ -1,0 +1,20 @@
+{
+  "id": 86,
+  "title": "Partition List",
+  "language": "go",
+  "method": "partition",
+  "params": [
+    {
+      "name": "head",
+      "type": "ListNode",
+      "dealloc": false
+    },
+    {
+      "name": "x",
+      "type": "integer"
+    }
+  ],
+  "return_type": "ListNode",
+  "unordered": [],
+  "file": "solution.go"
+}

@@ -2,7 +2,6 @@
   "id": 3,
   "title": "Longest Substring Without Repeating Characters",
   "language": "python",
-  "source": "3.py",
   "method": "lengthOfLongestSubstring",
   "params": [
     {

@@ -2,7 +2,6 @@
   "id": 80,
   "title": "Remove Duplicates from Sorted Array II",
   "language": "go",
-  "source": "80.go",
   "method": "removeDuplicates",
   "params": [
     {

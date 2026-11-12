@@ -2,7 +2,6 @@
   "id": 13,
   "title": "Roman to Integer",
   "language": "python",
-  "source": "13.py",
   "method": "romanToInt",
   "params": [
     {

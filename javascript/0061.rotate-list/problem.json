@@ -2,7 +2,6 @@
   "id": 61,
   "title": "Rotate List",
   "language": "javascript",
-  "source": "61.js",
   "method": "rotateRight",
   "params": [
     {

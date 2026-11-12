@@ -2,7 +2,6 @@
   "id": 75,
   "title": "Sort Colors",
   "language": "javascript",
-  "source": "75.js",
   "method": "sortColors",
   "params": [
     {

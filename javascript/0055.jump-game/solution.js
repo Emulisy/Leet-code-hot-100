@@ -3,7 +3,7 @@
  * @return {boolean}
  */
 var canJump = function(nums) {
-    maxReach = 0;
+    let maxReach = 0;
 
     for (let i = 0; i < nums.length; i++) {
         if(maxReach < i)  return false;

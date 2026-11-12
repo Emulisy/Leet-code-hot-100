@@ -2,7 +2,6 @@
   "id": 37,
   "title": "Sudoku Solver",
   "language": "java",
-  "source": "Solution37.java",
   "method": "solveSudoku",
   "params": [
     {

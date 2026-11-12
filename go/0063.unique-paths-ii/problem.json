@@ -2,7 +2,6 @@
   "id": 63,
   "title": "Unique Paths II",
   "language": "go",
-  "source": "63.go",
   "method": "uniquePathsWithObstacles",
   "params": [
     {

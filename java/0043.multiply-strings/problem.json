@@ -2,7 +2,6 @@
   "id": 43,
   "title": "Multiply Strings",
   "language": "java",
-  "source": "Solution43.java",
   "method": "multiply",
   "params": [
     {

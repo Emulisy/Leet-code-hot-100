@@ -2,7 +2,6 @@
   "id": 40,
   "title": "Combination Sum II",
   "language": "java",
-  "source": "Solution40.java",
   "method": "combinationSum2",
   "params": [
     {

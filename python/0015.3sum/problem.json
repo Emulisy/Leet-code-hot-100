@@ -2,7 +2,6 @@
   "id": 15,
   "title": "3Sum",
   "language": "python",
-  "source": "15.py",
   "method": "threeSum",
   "params": [
     {

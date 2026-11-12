@@ -2,7 +2,6 @@
   "id": 14,
   "title": "Longest Common Prefix",
   "language": "python",
-  "source": "14.py",
   "method": "longestCommonPrefix",
   "params": [
     {

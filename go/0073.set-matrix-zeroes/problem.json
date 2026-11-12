@@ -2,7 +2,6 @@
   "id": 73,
   "title": "Set Matrix Zeroes",
   "language": "go",
-  "source": "73.go",
   "method": "setZeroes",
   "params": [
     {

@@ -2,7 +2,6 @@
   "id": 57,
   "title": "Insert Interval",
   "language": "javascript",
-  "source": "57.js",
   "method": "insert",
   "params": [
     {

@@ -2,7 +2,6 @@
   "id": 67,
   "title": "Add Binary",
   "language": "go",
-  "source": "67.go",
   "method": "addBinary",
   "params": [
     {

@@ -2,7 +2,7 @@
 
 This repository contains my solutions to the [LeetCode Hot 100](https://leetcode.com/problem-list/top-100-liked-questions/) — a curated list of the most frequently asked and highly upvoted problems on LeetCode.
 
-The runnable workspace contains **83 migrated solutions** in `go/`, `python/`, `java/`, and `javascript/`. Edit these copies going forward. The numbered files in the repository root are preserved originals, including the work that was uncommitted when migration started. See [MIGRATION.md](MIGRATION.md) for exceptions and existing solution bugs.
+Solutions live in `go/`, `python/`, `java/`, and `javascript/`. Each problem has one working implementation, local tests, and debugger support. Separate standalone exercises are kept in `extras/`.
 
 [j178/leetgo](https://github.com/j178/leetgo#language-support) handles Go/Python generation and native local tests. Java and JavaScript use small adapters because leetgo does not provide native local runners for those languages. A shared Python command runs all four languages with the same `testcases.txt` format.
 
@@ -120,10 +120,13 @@ python tools/leet.py export go 62
 python tools/leet.py export java 36
 ```
 
-Check the migration and runner infrastructure with:
+Check the runner and solution regressions with:
 
 ```powershell
 python -m unittest discover -s tools/tests -v
+go -C go test ./0090.subsets-ii
 ```
 
-`tools/migrate.py` is the repeatable legacy importer. It preserves original source files and skips already registered directories, so rerunning it does not replace edits to migrated solutions.
+The regression tests cover carries and zero values in linked-list addition, mixed bracket nesting, empty and duplicate-valued merge inputs, 5,000-node group reversal, repeated Sudoku solves, JavaScript strict mode, and duplicate-free subsets. The runnable problem fixtures also include additional edge cases for the repaired solutions.
+
+The shared problem-data helper in `tools/problem_data.py` supports new-problem generation. Installed tools, dependencies, and runtime caches are ignored by Git.

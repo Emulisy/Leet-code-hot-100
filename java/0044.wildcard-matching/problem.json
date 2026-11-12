@@ -2,7 +2,6 @@
   "id": 44,
   "title": "Wildcard Matching",
   "language": "java",
-  "source": "Solution44.java",
   "method": "isMatch",
   "params": [
     {

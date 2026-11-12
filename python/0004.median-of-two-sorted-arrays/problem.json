@@ -2,7 +2,6 @@
   "id": 4,
   "title": "Median of Two Sorted Arrays",
   "language": "python",
-  "source": "4.py",
   "method": "findMedianSortedArrays",
   "params": [
     {

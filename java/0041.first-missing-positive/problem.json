@@ -2,7 +2,6 @@
   "id": 41,
   "title": "First Missing Positive",
   "language": "java",
-  "source": "Solution41.java",
   "method": "firstMissingPositive",
   "params": [
     {

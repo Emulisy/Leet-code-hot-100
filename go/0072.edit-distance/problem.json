@@ -2,7 +2,6 @@
   "id": 72,
   "title": "Edit Distance",
   "language": "go",
-  "source": "72.go",
   "method": "minDistance",
   "params": [
     {

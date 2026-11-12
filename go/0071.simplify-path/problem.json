@@ -2,7 +2,6 @@
   "id": 71,
   "title": "Simplify Path",
   "language": "go",
-  "source": "71.go",
   "method": "simplifyPath",
   "params": [
     {

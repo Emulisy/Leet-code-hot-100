@@ -2,7 +2,6 @@
   "id": 45,
   "title": "Jump Game II",
   "language": "java",
-  "source": "Solution45.java",
   "method": "jump",
   "params": [
     {

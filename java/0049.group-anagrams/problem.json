@@ -2,7 +2,6 @@
   "id": 49,
   "title": "Group Anagrams",
   "language": "java",
-  "source": "Solution49.java",
   "method": "groupAnagrams",
   "params": [
     {

@@ -7,3 +7,13 @@ input:
 [3,2,1,0,4]
 output:
 false
+
+input:
+[0]
+output:
+true
+
+input:
+[1,0,1,0]
+output:
+false

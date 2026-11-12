@@ -2,7 +2,6 @@
   "id": 35,
   "title": "Search Insert Position",
   "language": "python",
-  "source": "35.py",
   "method": "searchInsert",
   "params": [
     {

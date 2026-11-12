@@ -2,7 +2,6 @@
   "id": 62,
   "title": "Unique Paths",
   "language": "go",
-  "source": "62.go",
   "method": "uniquePaths",
   "params": [
     {

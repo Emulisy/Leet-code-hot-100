@@ -2,7 +2,6 @@
   "id": 47,
   "title": "Permutations II",
   "language": "java",
-  "source": "Solution47.java",
   "method": "permuteUnique",
   "params": [
     {

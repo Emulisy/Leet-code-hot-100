@@ -2,7 +2,6 @@
   "id": 11,
   "title": "Container With Most Water",
   "language": "python",
-  "source": "11.py",
   "method": "maxArea",
   "params": [
     {

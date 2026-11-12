@@ -7,31 +7,15 @@ from leetgo_py import *
 
 class Solution:
     def isValid(self, s: str) -> bool:
-        temp1 = []
-        temp2 = []
-        temp3 = []
+        stack = []
+        opening = {')': '(', ']': '[', '}': '{'}
         for each_char in s:
-            if each_char == '(':
-                temp1.append(each_char)
-            elif each_char == ')':
-                if not temp1:
+            if each_char in '([{':
+                stack.append(each_char)
+            elif each_char in opening:
+                if not stack or stack.pop() != opening[each_char]:
                     return False
-                temp1.pop()
-            elif each_char == '[':
-                temp2.append(each_char)
-            elif each_char == ']':
-                if not temp2:
-                    return False
-                temp2.pop()
-            elif each_char == '{':
-                temp3.append(each_char)
-            elif each_char == '}':
-                if not temp3:
-                    return False
-                temp3.pop()
-            else:
-                continue
-        return not temp1 and not temp2 and not temp3
+        return not stack
 
 # @lc code=end
 

@@ -2,7 +2,6 @@
   "id": 42,
   "title": "Trapping Rain Water",
   "language": "java",
-  "source": "Solution42.java",
   "method": "trap",
   "params": [
     {

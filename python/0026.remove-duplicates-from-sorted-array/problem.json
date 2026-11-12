@@ -2,7 +2,6 @@
   "id": 26,
   "title": "Remove Duplicates from Sorted Array",
   "language": "python",
-  "source": "26.py",
   "method": "removeDuplicates",
   "params": [
     {

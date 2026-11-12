@@ -2,7 +2,6 @@
   "id": 60,
   "title": "Permutation Sequence",
   "language": "javascript",
-  "source": "60.js",
   "method": "getPermutation",
   "params": [
     {

@@ -2,7 +2,6 @@
   "id": 38,
   "title": "Count and Say",
   "language": "java",
-  "source": "Solution38.java",
   "method": "countAndSay",
   "params": [
     {

@@ -14,13 +14,15 @@ class Solution:
         temp = None
         if list1.val <= list2.val:
             temp = list1
-            list1 = list1.next
         else:
             temp = list2
-            list2 = list2.next
         return temp
 
     def mergeTwoLists(self, list1: Optional[ListNode], list2: Optional[ListNode]) -> Optional[ListNode]:
+        if list1 is None:
+            return list2
+        if list2 is None:
+            return list1
         head = None
         if list1.val <= list2.val:
             head = list1
@@ -32,12 +34,11 @@ class Solution:
         while list1 and list2:
             current.next = self.compareLists(list1, list2)
             current = current.next
-            if not list1:
-                current.next = list2
-                break
-            elif not list2:
-                current.next = list1
-                break
+            if current is list1:
+                list1 = list1.next
+            else:
+                list2 = list2.next
+        current.next = list1 if list1 is not None else list2
         return head
 
 # @lc code=end

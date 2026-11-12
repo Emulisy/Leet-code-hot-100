@@ -2,7 +2,6 @@
   "id": 21,
   "title": "Merge Two Sorted Lists",
   "language": "python",
-  "source": "21.py",
   "method": "mergeTwoLists",
   "params": [
     {

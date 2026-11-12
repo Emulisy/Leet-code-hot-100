@@ -2,7 +2,6 @@
   "id": 5,
   "title": "Longest Palindromic Substring",
   "language": "python",
-  "source": "5.py",
   "method": "longestPalindrome",
   "params": [
     {

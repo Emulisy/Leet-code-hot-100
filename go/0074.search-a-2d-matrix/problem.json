@@ -2,7 +2,6 @@
   "id": 74,
   "title": "Search a 2D Matrix",
   "language": "go",
-  "source": "74.go",
   "method": "searchMatrix",
   "params": [
     {

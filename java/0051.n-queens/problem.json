@@ -2,7 +2,6 @@
   "id": 51,
   "title": "N-Queens",
   "language": "java",
-  "source": "Solution51.java",
   "method": "solveNQueens",
   "params": [
     {

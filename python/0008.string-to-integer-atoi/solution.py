@@ -16,7 +16,7 @@ class Solution(object):
         for i in range(len(s)):
             if s[i] == ' ':
                 continue
-            elif s[i] == '+' or '-' or s[i].isdigit():
+            elif s[i] in '+-' or s[i].isdigit():
                 start_index = i
                 res += s[i]
                 break

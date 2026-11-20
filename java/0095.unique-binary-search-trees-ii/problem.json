@@ -1,0 +1,16 @@
+{
+  "id": 95,
+  "title": "Unique Binary Search Trees II",
+  "language": "java",
+  "method": "generateTrees",
+  "params": [
+    {
+      "name": "n",
+      "type": "integer"
+    }
+  ],
+  "return_type": "list<TreeNode>",
+  "unordered": [],
+  "class": "Solution95",
+  "file": "Solution95.java"
+}

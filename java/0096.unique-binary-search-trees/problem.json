@@ -1,0 +1,16 @@
+{
+  "id": 96,
+  "title": "Unique Binary Search Trees",
+  "language": "java",
+  "method": "numTrees",
+  "params": [
+    {
+      "name": "n",
+      "type": "integer"
+    }
+  ],
+  "return_type": "integer",
+  "unordered": [],
+  "class": "Solution96",
+  "file": "Solution96.java"
+}

@@ -1,0 +1,24 @@
+{
+  "id": 92,
+  "title": "Reverse Linked List II",
+  "language": "go",
+  "method": "reverseBetween",
+  "params": [
+    {
+      "name": "head",
+      "type": "ListNode",
+      "dealloc": false
+    },
+    {
+      "name": "left",
+      "type": "integer"
+    },
+    {
+      "name": "right",
+      "type": "integer"
+    }
+  ],
+  "return_type": "ListNode",
+  "unordered": [],
+  "file": "solution.go"
+}

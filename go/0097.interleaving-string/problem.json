@@ -1,0 +1,23 @@
+{
+  "id": 97,
+  "title": "Interleaving String",
+  "language": "go",
+  "method": "isInterleave",
+  "params": [
+    {
+      "name": "s1",
+      "type": "string"
+    },
+    {
+      "name": "s2",
+      "type": "string"
+    },
+    {
+      "name": "s3",
+      "type": "string"
+    }
+  ],
+  "return_type": "boolean",
+  "unordered": [],
+  "file": "solution.go"
+}

@@ -1,0 +1,15 @@
+{
+  "id": 98,
+  "title": "Validate Binary Search Tree",
+  "language": "go",
+  "method": "isValidBST",
+  "params": [
+    {
+      "name": "root",
+      "type": "TreeNode"
+    }
+  ],
+  "return_type": "boolean",
+  "unordered": [],
+  "file": "solution.go"
+}

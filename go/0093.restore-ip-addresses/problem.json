@@ -1,0 +1,15 @@
+{
+  "id": 93,
+  "title": "Restore IP Addresses",
+  "language": "go",
+  "method": "restoreIpAddresses",
+  "params": [
+    {
+      "name": "s",
+      "type": "string"
+    }
+  ],
+  "return_type": "list<string>",
+  "unordered": [],
+  "file": "solution.go"
+}

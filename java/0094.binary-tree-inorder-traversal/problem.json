@@ -1,0 +1,16 @@
+{
+  "id": 94,
+  "title": "Binary Tree Inorder Traversal",
+  "language": "java",
+  "method": "inorderTraversal",
+  "params": [
+    {
+      "name": "root",
+      "type": "TreeNode"
+    }
+  ],
+  "return_type": "list<integer>",
+  "unordered": [],
+  "class": "Solution94",
+  "file": "Solution94.java"
+}

@@ -1,0 +1,15 @@
+{
+  "id": 91,
+  "title": "Decode Ways",
+  "language": "go",
+  "method": "numDecodings",
+  "params": [
+    {
+      "name": "s",
+      "type": "string"
+    }
+  ],
+  "return_type": "integer",
+  "unordered": [],
+  "file": "solution.go"
+}

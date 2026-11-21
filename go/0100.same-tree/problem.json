@@ -1,0 +1,19 @@
+{
+  "id": 100,
+  "title": "Same Tree",
+  "language": "go",
+  "method": "isSameTree",
+  "params": [
+    {
+      "name": "p",
+      "type": "TreeNode"
+    },
+    {
+      "name": "q",
+      "type": "TreeNode"
+    }
+  ],
+  "return_type": "boolean",
+  "unordered": [],
+  "file": "solution.go"
+}

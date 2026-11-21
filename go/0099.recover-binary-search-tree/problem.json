@@ -1,0 +1,16 @@
+{
+  "id": 99,
+  "title": "Recover Binary Search Tree",
+  "language": "go",
+  "method": "recoverTree",
+  "params": [
+    {
+      "name": "root",
+      "type": "TreeNode"
+    }
+  ],
+  "return_type": "void",
+  "unordered": [],
+  "output_arg": 0,
+  "file": "solution.go"
+}

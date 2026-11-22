@@ -1,0 +1,15 @@
+{
+  "id": 101,
+  "title": "Symmetric Tree",
+  "language": "go",
+  "method": "isSymmetric",
+  "params": [
+    {
+      "name": "root",
+      "type": "TreeNode"
+    }
+  ],
+  "return_type": "boolean",
+  "unordered": [],
+  "file": "solution.go"
+}

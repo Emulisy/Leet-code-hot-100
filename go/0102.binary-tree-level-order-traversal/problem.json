@@ -1,0 +1,15 @@
+{
+  "id": 102,
+  "title": "Binary Tree Level Order Traversal",
+  "language": "go",
+  "method": "levelOrder",
+  "params": [
+    {
+      "name": "root",
+      "type": "TreeNode"
+    }
+  ],
+  "return_type": "list<list<integer>>",
+  "unordered": [],
+  "file": "solution.go"
+}

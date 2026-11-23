@@ -1,0 +1,15 @@
+{
+  "id": 103,
+  "title": "Binary Tree Zigzag Level Order Traversal",
+  "language": "go",
+  "method": "zigzagLevelOrder",
+  "params": [
+    {
+      "name": "root",
+      "type": "TreeNode"
+    }
+  ],
+  "return_type": "list<list<integer>>",
+  "unordered": [],
+  "file": "solution.go"
+}
